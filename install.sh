@@ -2,8 +2,6 @@
 sudo apt update 
 sudo apt upgrade
 
-#Git
-sudo apt install git
 #Brave Browser
 sudo apt install apt-transport-https curl
 sudo curl -fsSLo /usr/share/keyrings/brave-browser-archive-keyring.gpg https://brave-browser-apt-release.s3.brave.com/brave-browser-archive-keyring.gpg
@@ -16,6 +14,10 @@ sudo apt install brave-browser
 
 #Snap
 sudo apt install snapd
+
+sudo snap install core
+
+sudo snap install code --classic
 
 #Spotify
 snap install spotify
