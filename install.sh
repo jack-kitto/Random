@@ -24,3 +24,6 @@ snap install spotify
 
 #Starship
 sudo snap install starship
+
+# xclip
+sudo apt-get -y install xclip
