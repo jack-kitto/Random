@@ -27,3 +27,10 @@ sudo snap install starship
 
 # xclip
 sudo apt-get -y install xclip
+
+# imagemagick
+sudo apt install -y imagemagick
+
+# scrot
+sudo apt-get install -y scrot
+
