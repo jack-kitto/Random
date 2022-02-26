@@ -34,3 +34,8 @@ sudo apt install -y imagemagick
 # scrot
 sudo apt-get install -y scrot
 
+# ly display manager
+
+apt install build-essential libpam0g-dev libxcb-xkb-dev
+
+
