@@ -1,0 +1,15 @@
+#!/bin/bash
+ext=$(echo $1 | awk -F'.' '{print $2}')
+name=$(echo $1 | awk -F'.' '{print $1}')
+
+case $ext in
+  cpp)
+    c++ $1 -o "$name" && ./$name 
+    ;;
+  c)
+    gcc $1 -o "$name" && ./$name 
+    ;;
+esac
+
+rm ./$name
+	
